@@ -1,0 +1,226 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px; 
+}
+
+nav {
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+img {
+    max-width: 100%;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+    color: #000000;
+    margin: 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+.fltr-content h3 {
+    font-size: 50px;
+    padding: 70px;
+    font-weight: 600;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.main-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 75px;
+    background: #358ec6;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.right-header {
+    display: flex;
+    gap: 27px;
+}
+
+.fltr-main {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+.fltr-main .fltr-inerflx {
+    width: 50%;
+    padding: 0 10px;
+}
+.fltr-content h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
+.fltr-content p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.fltr-content .apkbtn-main {
+    display: flex;
+    margin: 0 20px;
+    margin-top: 25px;
+}
+.fltr-content .apkbtn-main .apkimg {
+    padding: 0 10px;
+}
+.fltr-main .bnr-inerflx {
+    width: 50%;
+    padding: 0 10px;
+}
+.fltr-image {
+    text-align: right;
+}
+.top-heading {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px 0px 35px 0px;
+}
+
+.top-heading h3 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.top-heading p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.main-flex {
+    display: flex;
+}
+.work-crd h5 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.owl-carousel {
+    display: flex;
+}
+.menu-icon {
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    padding: 16px 8px;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-main .cntct-flx {
+    width: 40%;
+}
+
+.singl-inpuflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -10px;
+}
+
+.sngl-inpu {
+    width: 50%;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #ffffff;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 12px 12px;
+    font-size: 14px;
+    resize: none;
+}
+.foter-top {
+    padding: 10px 0 25px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.foter-top .payment-main {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.foter-top .payment-main .pymnt-list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 -8px;
+    align-items: center;
+}
+
+.foter-top .payment-main .pymnt-list li {
+    padding: 0 8px;
+}
+
+.foter-top .comrcial-detail {
+    position: relative;
+    padding-left: 72px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: flex-start;
+}
+
+.foter-top .comrcial-detail .cmrcl-qrcode {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.foter-top .comrcial-detail .cmrcl-qrcode span {
+    display: block;
+}
+
+.foter-top .comrcial-detail .code-dtl p {
+    font-weight: 600;
+    line-height: 24px;
+}
+.contact-main {
+    display: flex;
+}
